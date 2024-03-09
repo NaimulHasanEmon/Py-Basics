@@ -1,6 +1,12 @@
-lis = [34,87,13,46]
-print(f'Original list: {lis}')
-lis.sort()
-print(f'Sorted list: {lis}')
-lis.sort(reverse=True)
-print(f'Reverse sorted list: {lis}')
+nums = [45, 75, 32, 98, 56, 73, 12, 125]
+
+# Original list
+print(f'Original list: {nums}')
+
+# Ascending order sorting
+nums.sort()
+print(f'Ascending order sorted list: {nums}')
+
+# Descending order sorting
+nums.sort(reverse = True)
+print(f'Reverse order sorted list: {nums}')
